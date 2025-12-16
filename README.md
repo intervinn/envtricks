@@ -29,6 +29,14 @@ If `-a` is present and `fields` if present, all fields except for the ones prese
 
 If the `destination` file doesn't exist, it gets automatically created.
 
+Examples:
+
+`envtricks move -a .env .env.prod` - move all fields of .env into .env.prod, create .env.prod if doesn't exist.
+
+`envtricks move -a .env .env.prod SECRET SOMETHING` - move all fields of .env into .env.prod, EXCEPT for `SECRET` and `SOMETHING`
+
+`envtricks move .env .env.prod SECRET SOMETHING` - move ONLY `SECRET` and `SOMETHING` from .env into .env.prod
+
 ### `envtricks example`
 * Arguments: `source`, `destination`
 
