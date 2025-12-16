@@ -16,6 +16,11 @@ From source:
 git clone https://github.com/intervinn/envtricks && cd envtricks && cargo install --path .
 ```
 
+With Cargo:
+```bash
+cargo install envtricks
+```
+
 ## Commands
 Run `envtricks help` to view similar information.
 
