@@ -2,6 +2,8 @@
 <h1 align="center">envtricks</h1>
 </br>
 
+[![Crates.io](https://img.shields.io/crates/v/envtricks)](https://crates.io/crates/envtricks)
+
 envtricks (`envtricks`) is a small set of helpful commands to work with .env files.
 
 This project features powerful manipulation with selectively copying fields from one file to another,
